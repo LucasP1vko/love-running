@@ -222,7 +222,6 @@ footer {
     max-resolution:  1%;
     padding: 5%;
     color: #3a3a3a;
-
 }
 
 /* gallery */
@@ -273,6 +272,9 @@ footer {
          height: 150px;
          padding: 0;
      }
+     #photos {
+         column-count: 3;
+     }
  }
 
  /* for medium screen sizes from 950px wide and down */
@@ -305,5 +307,11 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+ }
+
+ @media screen and (max-width: 800px) {
+    #photos{
+        column-count: 2;
+    }     
  }
 
